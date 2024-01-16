@@ -55,8 +55,6 @@ body {
     padding: 3px;
 }
 
-.button {}
-
 .button-clicked {
     background-color: rgb(41, 162, 236);
     color: white;
@@ -64,12 +62,10 @@ body {
 
 
 ul {
-    margin-bottom: 31px;
-    list-style: none;
+    margin-bottom: 30px;
 }
-
 li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #container-unordered-list {
@@ -79,6 +75,7 @@ li {
 .unordered-list-title {
     font-weight: bold;
     font-size: 1rem;
+    list-style-type:'\25bc';
 
 }
 
@@ -136,18 +133,20 @@ li {
     padding: 3px;
 }
 
-.check {
-    color: green;
-    border: 1px solid green;
-    border-radius: 50%;
-    padding: 1px;
-    margin-right: 2px;
+
+.unordered-list-element-check {
+    list-style-type: '\2713';
 }
 
-.cross {
-    color: red;
-    border: 1px solid red;
-    border-radius: 50%;
-    padding: 1px;
-    margin-right: 2px;
+
+.unordered-list-element-cross {
+    list-style-type: '\2BBE';
+}
+
+.sign-footer{
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
 }
