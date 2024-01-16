@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dedbdb;
+}
+
+#header_container {
+    background-color: white;
+    margin-bottom: 2rem;
+
+}
+
+#main {
+    width: 600px;
+    margin: auto;
+    background-color: white;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#container-button-list {
+    border-bottom: 1px solid rgb(222, 219, 219);
+}
+
+#container-unordered-list {
+    margin-top: 10px;
+}
+
+.unordered-list-title {
+    font-weight: bold;
+}
