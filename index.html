@@ -22,39 +22,63 @@
 
     <!--#main-->
     <main id="main">
-        <div id="container-button-list">
-            <input class="button-clicked" type="button">
-            <input class="button" type="button">
-        </div>
-        <div id="container-unordered-list">
-            <ul> <!--New Task List-->
-                <li class="unordered-list-title">aaxczz
-                </li>
-                <li class="unordered-list-element">dasd
-                </li>
-            </ul>
-            <ul> <!--Today List-->
-                <li class="unordered-list-title">faeqw
-                </li>
-                <li class="unordered-list-element">dascae
-                </li>
-                <li class="unordered-list-element">dasasdz
-                </li>
-                <li class="unordered-list-element">das213
-                </li>
-                <li class="unordered-list-element">dasasd
-                </li>
-            </ul>
-            <ul> <!--Upcoming List-->
-                <li class="unordered-list-title">dsa
-                </li>
-                <li class="unordered-list-element">das
-                </li>
-                <li class="unordered-list-title">fadas
-                </li>
-                <li class="unordered-list-title">fadsa
-                </li>
-            </ul>
+        <div class="main-container">
+            <div id="container-button-list">
+                <input class="button-clicked" type="button" value="Add Task">
+                <input class="button" type="button" value="Add Value">
+            </div>
+            <div id="container-unordered-list">
+
+                <!--Ho utilizzato gli unicode perchè non ho capito come mai non funziona l'attributo SYMBOLS() in css -->
+
+                <ul> <!--New Task List-->
+                    <li class="unordered-list-title">
+                        <h3>&#9660;New Task</h3>
+                    </li>
+
+                    <li class="unordered-list-element"><span class="check">&#10003;</span> <span
+                            class="editorial">Editorial</span>
+                    </li>
+                </ul>
+
+                <ul> <!--Today List-->
+                    <li class="unordered-list-title">
+                        <h3>&#9660;Today</h3>
+                    </li>
+                    <li class="unordered-list-element"><span class="check">&#10003;</span>Recruiting blog post
+                        <span class="editorial">Editorial</span>
+                    </li>
+                    <li class="unordered-list-element"><span class="check">&#10003;</span>Mobile app launch
+                        <span class="q1-goals">Q1-goals</span>
+
+                    <li class="unordered-list-element"><span class="cross">&#10005;</span>Interview John H.
+                        <span class="recruiting">Recruiting</span>
+
+                    <li class="unordered-list-element"><span class="check">&#10003;</span>Summit update to mobile
+                        storefronts
+                        <span class="mobile" Mobile>Mobile</span>
+                </ul>
+                <ul> <!--Upcoming List-->
+                    <li class="unordered-list-title">
+                        <h3>&#9660;Upcoming</h3>
+                    </li>
+
+                    <li class="unordered-list-element"><span class="cross">&#10005;</span>Schedule meeting with Alex
+                    </li>
+
+                    <li class="unordered-list-element"><span class="check">&#10003;</span>Homepage refresh
+                        <span class="website">Website</span>
+                    </li>
+
+                    <li class="unordered-list-element"><span class="check">&#10003;</span>Onboard new Sales Team
+                        Members<span class="sales">Sales</span>
+                    </li>
+
+                    <li class="unordered-list-element"><span class="check">&#10003;</span>Review editorial calendar<span
+                            class="editorial">Editorial</span>
+                    </li>
+                </ul>
+            </div>
         </div>
     </main>
     <!-- /#main -->

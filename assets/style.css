@@ -36,18 +36,40 @@ body {
 /*#endregion HEADER*/
 
 #main {
-    width: 600px;
+    width: 800px;
     margin: auto;
     background-color: white;
+    padding-bottom: 5rem;
+
 }
+
+.main-container {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.button,
+.button-clicked {
+    border-radius: 0.5rem;
+    padding: 3px;
+}
+
+.button {}
+
+.button-clicked {
+    background-color: rgb(41, 162, 236);
+    color: white;
+}
+
 
 ul {
-    margin-bottom: 20px;
-    padding: 20px;
+    margin-bottom: 30px;
+    list-style: none;
 }
 
-#container-button-list {
-    border-bottom: 1px solid rgb(222, 219, 219);
+li {
+    margin-bottom: 10px;
 }
 
 #container-unordered-list {
@@ -56,4 +78,76 @@ ul {
 
 .unordered-list-title {
     font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.editorial {
+    border: 2px solid rgb(11, 178, 178);
+    border-radius: 10px;
+    background-color: rgb(11, 178, 178);
+    font-size: 0.7rem;
+    color: white;
+    padding: 3px;
+}
+
+.q1-goals {
+    border: 2px solid rgb(178, 11, 175);
+    border-radius: 10px;
+    background-color: rgb(178, 11, 175);
+    font-size: 0.7rem;
+    color: white;
+    padding: 3px;
+}
+
+.recruiting {
+    border: 2px solid rgb(7, 134, 43);
+    border-radius: 10px;
+    background-color: rgb(7, 134, 43);
+    font-size: 0.7rem;
+    color: white;
+    padding: 3px;
+}
+
+.mobile {
+    border: 2px solid rgb(207, 133, 13);
+    border-radius: 10px;
+    background-color: rgb(207, 133, 13);
+    font-size: 0.7rem;
+    color: white;
+    padding: 3px;
+}
+
+.website {
+    border: 2px solid rgb(218, 42, 127);
+    border-radius: 10px;
+    background-color: rgb(218, 42, 127);
+    font-size: 0.7rem;
+    color: white;
+    padding: 3px;
+}
+
+.sales {
+    border: 2px solid rgb(67, 210, 59);
+    border-radius: 10px;
+    background-color: rgb(67, 210, 59);
+    font-size: 0.7rem;
+    color: white;
+    padding: 3px;
+}
+
+.check {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 1px;
+    margin-right: 2px;
+}
+
+.cross {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 1px;
+    margin-right: 2px;
 }
