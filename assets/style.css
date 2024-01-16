@@ -8,11 +8,32 @@ body {
     background-color: #dedbdb;
 }
 
+/*#region HEADER*/
 #header_container {
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+
+#header {
     background-color: white;
     margin-bottom: 2rem;
 
 }
+
+#header img {
+    vertical-align: middle;
+    width: 3rem;
+    margin-bottom: 10px;
+}
+
+#header span {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+/*#endregion HEADER*/
 
 #main {
     width: 600px;
