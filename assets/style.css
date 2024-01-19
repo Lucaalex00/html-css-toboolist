@@ -66,6 +66,7 @@ ul {
 }
 li {
     margin-bottom: 20px;
+    list-style-type: none;
 }
 
 #container-unordered-list {
@@ -75,7 +76,6 @@ li {
 .unordered-list-title {
     font-weight: bold;
     font-size: 1rem;
-    list-style-type:'\25bc';
 
 }
 
@@ -133,14 +133,21 @@ li {
     padding: 3px;
 }
 
-
-.unordered-list-element-check {
-    list-style-type: '\2713';
+.unordered-list-element-check>span:first-child{
+    color:green;
+    border: 2px solid green;
+    border-radius: 100%;
+    padding: 1px;
+}
+.unordered-list-element-cross>span:first-child{
+    color:red;
+    border: 2px solid red;
+    border-radius: 100%;
+    padding: 1px;
 }
 
-
-.unordered-list-element-cross {
-    list-style-type: '\2BBE';
+.unordered-list-title h3>span:first-child{
+    padding: 5px;
 }
 
 .sign-footer{
